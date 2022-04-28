@@ -16,5 +16,6 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.3.3
         with:
+          BASE_BRANCH: main # The branch the action should deploy from.
           branch: gh-pages # The branch the action should deploy to.
           folder: dist # The folder the action should deploy.
